@@ -22,21 +22,21 @@
       Rechner
     </h1>
 
-    <label for="fname">number</label>
+    <label for="fname">Number</label>
     <br>
     <input type="number" id="myText" value="input"><br><br>
     <button onclick="myFunction()" class="submit">Submit</button>
 
-    <p id="test">
-
-    </p>
+    <h3>Output</h3>
+    <input type="number" id="test" value="0">
   </center>
 
 </body>
 
+<!-- Script -->
 <script>
   function myFunction() {
-    document.getElementById("test") = document.getElementById("myText") * 5;
+    document.getElementById("test").value = document.getElementById("myText").value * 5;
   }
 </script>
 
